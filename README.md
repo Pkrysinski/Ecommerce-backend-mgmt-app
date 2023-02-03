@@ -40,11 +40,13 @@ THEN a development database is created and is seeded with test data.
 - - - - -
 WHEN I enter the command to invoke the application,
 THEN my server is started and the Sequelize models are synced to the MySQL database.
+DONE.
 
 - - - - -
 WHEN I open API GET routes in Insomnia Core for categories, products, or tags,
 THEN the data for each of these routes is displayed in a formatted JSON.
 >TODO: Fill out the unfinished routes in product-routes.js, tag-routes.js, and category-routes.js to perform create, read, update, and delete operations using your Sequelize models.
+>DONE: product-routes.js, 
 
 - - - - -
 WHEN I test API POST, PUT, and DELETE routes in Insomnia Core,
